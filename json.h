@@ -1,7 +1,14 @@
 /*
-  json.h
-
+ ┌──────────────────────────────────────┐ 
+ │                json.h                │
+ │                                      │
+ │       Simple and Efficient JSON      │
+ │                                      │
+ │            Regan Koopmans            │
+ │            version 0.0.1             │
+ └──────────────────────────────────────┘
 */
+
 
 #include <stdbool.h>
 #include <stdio.h>
