@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 void case_one() {
-  printf("Test simple case");
-  struct JSON json = json_parse("{}");
-  printf(" ✅\n");
+  // The library should be able to handle a simple
+  // unicode JSON
+  printf("Test simple case\n");
+  struct JSON json = json_parse("{'hello' : '안녕하세요'}");
 }
 
 int main() {
